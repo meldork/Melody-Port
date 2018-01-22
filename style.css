@@ -1,0 +1,121 @@
+body, .btn {
+	background-color: #222;
+	color: white;
+	margin: 0;
+}
+
+div.height {
+		height: 50vh !important;
+		text-align: center;
+		top: 50%;
+		align-items: center;
+		position: relative;
+}
+
+
+
+
+div.height > div {
+padding: 25%;
+			text-align: center;
+			margin-top: 20px;
+}
+
+.inline {
+			text-align: center;
+			height: 50vh;
+			margin: 7;
+			width: 100vh;
+
+}
+
+.btn {
+	margin: 10px;
+}
+
+.btn:hover {
+	color: black;
+	background-color: #ddd;
+}
+
+#project-1, #project-2, #project-3, #project-4, #project-5 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	margin-top: 3em;
+
+}
+
+#project-1 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-369261.jpg) no-repeat center center fixed;
+}
+
+#project-2 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-302411.jpg) no-repeat center center fixed;
+}
+
+#project-3 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-216225.jpg) no-repeat center center fixed;
+}
+
+#project-4 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-610303.jpg) no-repeat center center fixed;
+}
+
+#project-5 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-611032.jpg) no-repeat center center fixed;
+}
+
+.jumbotron {
+	color: #222;
+	height: 100vh;
+	vertical-align: center;
+	border-radius: 0px;
+
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 7em;
+	margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+	border-radius: 0 !important;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Heebo", Helvetica, Roboto, sans-serif;
+	font-weight: 900;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+
+/*###########HEADING FONT SIZE QUERIES##########*/
+
+@media screen and (max-width: 1080px) {
+     h1 {
+        font-size: 6em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+     h1 {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 3em;
+    }
+}
